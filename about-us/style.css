@@ -1,0 +1,322 @@
+*{
+    font-family: montserrat;
+    box-sizing: border-box;
+   
+}
+.article{
+    width:100%;
+    height: 300px;
+    float: left;
+    /* margin-left: 5%; */
+}
+body{
+    background:#ecf3f3;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.services .card-body i{
+    font-size: 50px;
+}
+.team.card-body i{
+    font-size: 20px;
+}
+
+.portfolio.card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    border-color: brown;
+}
+
+.team.card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    border-color: brown;
+}
+.about-2{
+    margin: 10px;
+    padding: 5px;
+
+}
+.about-2 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+.about-2 p{
+    text-align: center;
+    padding: 3PX;
+    color: fff;
+
+
+}
+
+.about-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0,0 20px rgba(9, 9, 9, 0.6);
+    border-radius: 0.6rem;
+    border-color: #b60606;
+    
+    
+}
+.about-item i {
+    font-size: 25px;
+    margin: 0;
+    border-color: brown;
+
+} 
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border-radius: 6%;
+    border-color: #b60606;
+
+}
+.about-item p{
+    margin-top:20px;
+    
+       
+    }
+    .about-item :hover{
+        background-color: #5fbff9;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+.about-item{
+    margin-bottom: 30px;
+}
+
+.about-item{
+background-color: #7d898a;
+}
+    .about-item:hover i,
+    .about-item:hover h3,
+    .about-item:hover p{
+        color: #fff;
+    }
+    .about-item:hover hr{
+        background-color: #fff;
+    }
+    .about-item:hover i{
+        transform: translate(-20px);
+
+    }
+    .about-item:hover i,
+    .about-item:hover h3,
+    .about-item:hover hr{
+        transition: all 400ms ease-in-out;
+
+
+    }
+    .about-item{
+        background-color: #9fb3b5;
+        border-radius: 6%;
+        border-radius:#b60606 ;
+
+    }
+    .services .card-body i{
+        font-size: 50px;
+    }
+    .team.card-body i{
+        font-size: 20px;
+    }
+    
+    .portfolio.card{
+        box-shadow: 15px 15px 40px #5fbff9;
+    }
+    
+    .team.card{
+        box-shadow: 15px 15px 40px  #5fbff9;
+    }
+    
+    
+    
+    
+    /*responsive css*/
+    
+    @media only screen and (min-width:768px)and (max-width:991px){
+        .carousel-caption{
+            bottom: 370px;
+        }
+        .carousel-caption p{
+            width: 100%;
+        }
+        .card{
+            margin-bottom: 30px;
+        }
+        .img-area img{
+            width: 100%;
+        }
+    }
+    
+    
+    @media only screen and (max-width:767px){
+        .navbar-nav{
+            text-align: center;
+        }
+        .carousel-caption{
+            bottom: 125px;
+        }
+        .carousel-caption h5{
+            font-size: 17px;
+        }
+        .carousel-caption a{
+            padding: 10px 15px;
+        }
+        .carousel-caption p{
+            width:100%;
+            line-height: 1.6;
+            font-size: 12px;
+        }
+            .about-text{
+                padding-top: 50px;
+            }
+        .card{
+            margin-bottom: 30px;
+        }
+       }
+       .card-body{
+        background-color: #899797;
+        border-color:rgb(213, 25, 25) ;
+       }
+       .user-pic{
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 30px;
+      }
+     
+      .sub-menu-wrap{
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        width: 320px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+       
+      }
+      .sub-menu-wrap.open-class{
+        max-height: 400px;
+       }
+      .sub-menu-active{
+     
+     opacity: 1;
+     top: 80px;
+      }
+      .sub-menu{
+        background: #699494;
+        padding: 20px;
+        margin: 10px;
+      }
+      .user-info{
+        display: flex;
+        align-items: center;
+      }
+      .user-info h3{
+        font-weight: 500;
+      }
+      .user-info-img{
+        width: 60px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+      .sub-menu hr{
+        border: 0;
+        height: 1px;
+        width: 100%;
+        background:#ccc;
+        margin: 15px 0 10px;
+      }
+      .sub-menu-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #525252;
+        margin: 12px 0;
+      }
+      .sub-menu-link p{
+        width: 100%;
+      }
+    
+      .sub-menu-link img{
+        width: 40px;
+        background: #e5e5e5;
+        border-radius: 50%;
+        padding: 8px;
+        margin-right: 15px;
+      }
+      .sub-menu-link span{
+        font-size: 22px;
+        transition: transform 0.5s;
+      }
+      .sub-menu-link :hover span{
+        transform: translateX(5px);
+      }
+      .sub-menu-link:hover p{
+        font-weight: 600;
+      }
+    
+      /* .user-pic{
+        display: none;
+      } */
+      /* .user-pic:hover{
+        display: block;
+      } */
+      .user-pic:hover .sub-menu-wrap{
+        display: block;
+      }
+      .dropdown-color{
+        background-color: white
+      };
+      @media (prefers-color-scheme:dark){
+        body{
+            background-color: rgb(246, 239, 239);
+    
+        }
+        h1{
+            color: black;
+        }
+        }
+        @media (prefers-color-scheme:dark){
+            body{
+                background-color: #090808;
+    
+            }
+            h1{
+                color: #fff;
+            }
+      }
+     
